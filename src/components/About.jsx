@@ -74,7 +74,7 @@ const About = () => (
             </p>
             <p style={{ fontSize: '17px', lineHeight: '1.8', color: 'var(--text-muted)' }}>
               Actively seeking opportunities in{' '}
-              <strong style={{ color: 'var(--text)', fontWeight: '600' }}>Digital Marketing</strong>, where I can build, optimize, and iterate on high-quality digital products.
+              <strong style={{ color: 'var(--text)', fontWeight: '600' }}>Digital Marketing & Graphic Design</strong>, where I can build, optimize, and iterate on high-quality digital products.
             </p>
           </div>
 

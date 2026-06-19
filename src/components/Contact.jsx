@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 import InteractiveHoverButton from './InteractiveHoverButton';
 
 const fadeUp = (delay = 0) => ({
@@ -13,6 +13,7 @@ const fadeUp = (delay = 0) => ({
 
 const contactRows = [
   { icon: <FaLinkedin size={18} />, label: 'LinkedIn', value: 'linkedin.com/in/rehanshaikh1410', href: 'https://www.linkedin.com/in/rehanshaikh1410', color: '#0A66C2' },
+  { icon: <FaInstagram size={18} />, label: 'Instagram', value: '@rehandigitalgoa', href: 'https://www.instagram.com/rehandigitalgoa?igsh=MTluMnhjb3EyZDFlOQ==', color: '#E1306C' },
   { icon: <Mail size={18} />,       label: 'Email',    value: 'rehanjw999@gmail.com',            href: 'mailto:rehanjw999@gmail.com',                color: '#7C3AED' },
   { icon: <Phone size={18} />,      label: 'Phone',    value: '+91 73857 86094',                 href: 'tel:+917385786094',                          color: '#10B981' },
   { icon: <MapPin size={18} />,     label: 'Location', value: 'Vasco, Goa, India',               href: 'https://maps.google.com/?q=Vasco,Goa',       color: '#3B82F6' },

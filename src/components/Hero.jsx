@@ -156,7 +156,7 @@ const Hero = () => {
             <motion.p variants={fadeUp}
               style={{ fontSize: '17px', lineHeight: '1.75', color: 'var(--text-muted)', maxWidth: '440px', marginBottom: '20px' }}
             >
-              I'm <strong style={{ color: 'var(--text)', fontWeight: '600' }}>Rehan Naik Shaikh</strong> — a Digital Marketing Intern & BCA graduate combining analytical thinking with creative execution.
+              I'm <strong style={{ color: 'var(--text)', fontWeight: '600' }}>Rehan Naik Shaikh</strong> — a Digital Marketing Intern, Graphic Designer & BCA graduate combining analytical thinking with creative execution.
             </motion.p>
 
             {/* Location */}
@@ -229,7 +229,7 @@ const Hero = () => {
                     Rehan Naik Shaikh
                   </div>
                   <div style={{ fontSize: '13px', color: 'var(--text-muted)', fontWeight: '500' }}>
-                    Digital Marketing Intern
+                    Digital Marketer & Graphic Designer
                   </div>
                 </div>
 

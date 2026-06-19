@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import FigmaProjects from './components/FigmaProjects';
+import GraphicDesign from './components/GraphicDesign';
 import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Resume from './components/Resume';
@@ -103,6 +104,7 @@ function AppInner() {
             <About />
             <Skills />
             <FigmaProjects />
+            <GraphicDesign />
             <Experience />
             <Certifications />
             <Resume />

@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'About',        href: '#about' },
   { label: 'Skills',       href: '#skills' },
   { label: 'Projects',     href: '#figma' },
+  { label: 'Design',       href: '#design' },
   { label: 'Journey',      href: '#experience' },
   { label: 'Certificates', href: '#certifications' },
   { label: 'Resume',       href: '#resume' },
@@ -23,7 +24,7 @@ const Navbar = () => {
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 60);
-      const sections = ['home', 'about', 'skills', 'figma', 'experience', 'certifications', 'resume', 'contact'];
+      const sections = ['home', 'about', 'skills', 'figma', 'design', 'experience', 'certifications', 'resume', 'contact'];
       for (let i = sections.length - 1; i >= 0; i--) {
         const el = document.getElementById(sections[i]);
         if (el && window.scrollY >= el.offsetTop - 160) { setActiveSection(sections[i]); break; }

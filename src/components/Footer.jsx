@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUp, Heart } from 'lucide-react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { Mail } from 'lucide-react';
 
 const socials = [
   { icon: <FaLinkedin size={17} />, href: 'https://linkedin.com/in/rehanshaikh1410', label: 'LinkedIn', color: '#0A66C2' },
+  { icon: <FaInstagram size={17} />, href: 'https://www.instagram.com/rehandigitalgoa?igsh=MTluMnhjb3EyZDFlOQ==', label: 'Instagram', color: '#E1306C' },
   { icon: <FaGithub size={17} />,   href: 'https://github.com',                       label: 'GitHub',   color: '#FFFFFF' },
   { icon: <Mail size={17} />,        href: 'mailto:rehanjw999@gmail.com',              label: 'Email',    color: '#7C3AED' },
 ];
@@ -14,6 +15,7 @@ const navItems = [
   { label: 'About',        href: '#about' },
   { label: 'Skills',       href: '#skills' },
   { label: 'Projects',     href: '#figma' },
+  { label: 'Design',       href: '#design' },
   { label: 'Journey',      href: '#experience' },
   { label: 'Certificates', href: '#certifications' },
   { label: 'Resume',       href: '#resume' },
